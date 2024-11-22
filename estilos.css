@@ -1,0 +1,76 @@
+/* Configuración global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('fondo.jpeg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Contenedor principal */
+.contenedor {
+    width: 100%;
+    max-width: 500px;
+    margin: 50px auto;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+/* Encabezado */
+header {
+    background: #0074D9;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Contenedor del formulario */
+.formulario-contenedor {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo del título */
+.formulario-contenedor h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #333;
+}
+
+/* Etiquetas y campos del formulario */
+form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+form input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Botón de envío */
+form button {
+    width: 100%;
+    padding: 10px;
+    background: #000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #555;
+}
